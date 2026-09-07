@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
             removeTaskFromLocalStorage(taskText);
         });
 
-        task:isFinite.appendChild(li);
+        taskList.appendChild(li);
     }
 
     function getTasksFromLocalStorage() {
