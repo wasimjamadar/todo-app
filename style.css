@@ -104,4 +104,31 @@ h2 {
   cursor: pointer;
 }
 
+/* Container to wrap badges horizontally */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+/* Pill badge styling */
+.skill-badge {
+  background-color: var(--card-bg, #f0f0f0);
+  color: var(--text-color, #333);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid var(--accent-color, #007bff);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect */
+.skill-badge:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
 
