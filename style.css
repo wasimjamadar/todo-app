@@ -153,9 +153,10 @@ h2 {
 
 /* Center About Section & Skills */
 .about-section {
-  max-width: 600px;
-  margin: 0 auto 40px auto;
+  max-width: 550px;
+  margin: 30px auto;
   text-align: center;
+  padding: 0 15px;
 }
 
 .skills-container {
@@ -177,9 +178,10 @@ h2 {
 
 /* Center Get In Touch Section */
 .contact-section {
-  max-width: 500px;
-  margin: 0 auto 60px auto;
+  max-width: 450px;
+  margin: 40px auto;
   text-align: center;
+  padding: 0 15px;
 }
 
 .contact-form {
@@ -188,7 +190,6 @@ h2 {
   align-items: center;
   gap: 15px;
   width: 100%;
-  margin-top: 20px;
 }
 
 .form-group {
@@ -201,11 +202,11 @@ h2 {
 .form-group input,
 .form-group textarea {
   width: 100%;
-  padding: 10px;
-  margin-top: 5px;
+  padding: 10px 12px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 6px;
   box-sizing: border-box;
+  font-family: inherit;
 }
 
 .submit-btn {
