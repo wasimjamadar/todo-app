@@ -131,4 +131,92 @@ h2 {
   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
+/* Center Main Heading */
+.main-heading {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Center Subscribe Form Box */
+.subscribe-box {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto 40px auto;
+}
+
+#subscribeForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Center About Section & Skills */
+.about-section {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.skill-badge {
+  background-color: var(--card-bg, #f0f0f0);
+  color: var(--text-color, #333);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  border: 1px solid var(--accent-color, #007bff)
+}
+
+/* Center Get In Touch Section */
+.contact-section {
+  max-width: 500px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.submit-btn {
+  padding: 10px 25px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
 
